@@ -9,6 +9,8 @@ terraform {
 
 provider "aws" {
   region  = var.region
+#   access_key = "AKIAYEXOPU6APLGJICU7"
+#   secret_key = "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"
 }
 
 resource "aws_vpc" "hashicat" {
